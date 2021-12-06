@@ -81,7 +81,7 @@ app.get('/users', (request, response) =>{
             } else {
                 time10 = 'on';
             }
-            connection.query(`insert into Availability values ('${username}','${time1}','${time2}','${time3}', '${time4}', '${time5}', '${time6}', '${time7}','${time8}', '${time9}', '${check10}')`
+            connection.query(`insert into Availability values ('${username}','${time1}','${time2}','${time3}', '${time4}', '${time5}', '${time6}', '${time7}','${time8}', '${time9}', '${time10}')`
             ,(err,rows,fields) => {
                 if(err)
                     console.log(err);
