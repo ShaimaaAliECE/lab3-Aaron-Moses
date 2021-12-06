@@ -6,7 +6,7 @@ function newConnection(){
         host: '35.202.174.74',
         user: 'root',
         password: 'root',
-        database: 'Userslab3'
+        database: 'UsersLab3'
     });
     return connection;
 }
